@@ -17,7 +17,7 @@ export const PricingSection: React.FC = () => {
     <section className="flex max-w-full w-[1920px] flex-col items-center text-[rgba(255,253,245,1)] mt-20 pb-[25px] px-20 max-md:mt-10 max-md:px-5">
       <div className="flex min-h-[625px] w-[1188px] max-w-full flex-col overflow-hidden items-stretch justify-center px-[344px] py-[147px] max-md:px-5 max-md:py-[100px]">
         <div className="w-full max-md:max-w-full">
-          <h2 className="text-[80px] font-bold max-md:text-[40px]">
+          <h2 className="font-cormorant text-[80px] font-bold max-md:text-[40px]">
             PRIX
           </h2>
           <div className="w-full font-normal mt-10 max-md:max-w-full">

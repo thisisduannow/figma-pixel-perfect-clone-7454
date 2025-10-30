@@ -4,7 +4,7 @@ export const ArtistIntro: React.FC = () => {
   return (
     <section className="w-[763px] max-w-full text-[rgba(255,253,245,1)] font-medium mt-20 max-md:mt-10">
       <article className="max-md:max-w-full">
-        <h1 className="text-2xl leading-none max-md:max-w-full">
+        <h1 className="font-cormorant text-2xl leading-none max-md:max-w-full">
           Salut, c'est Duan
         </h1>
         <div className="text-lg leading-[34px] mt-7 max-md:max-w-full">

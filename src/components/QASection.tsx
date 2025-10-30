@@ -4,12 +4,12 @@ export const QASection: React.FC = () => {
   return (
     <section className="flex min-h-[649px] max-w-full w-[1921px] flex-col items-stretch justify-center mt-20 px-[137px] py-[77px] max-md:mt-10 max-md:px-5">
       <div className="flex w-full max-w-[1647px] flex-col items-stretch max-md:max-w-full">
-        <h2 className="text-[rgba(255,253,245,1)] text-[120px] font-bold max-md:text-[40px]">
+        <h2 className="font-cormorant text-[rgba(255,253,245,1)] text-[120px] font-bold max-md:text-[40px]">
           Q&A
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-10 max-md:gap-10">
           <div className="text-[rgba(255,253,245,1)]">
-            <h3 className="text-2xl font-bold mb-6 tracking-wider">
+            <h3 className="font-cormorant text-2xl font-bold mb-6 tracking-wider">
               EXPÉDITION
             </h3>
             <div className="space-y-4 text-base leading-relaxed">
@@ -29,7 +29,7 @@ export const QASection: React.FC = () => {
           </div>
           
           <div className="text-[rgba(255,253,245,1)]">
-            <h3 className="text-2xl font-bold mb-6 tracking-wider">
+            <h3 className="font-cormorant text-2xl font-bold mb-6 tracking-wider">
               REMBOURSEMENTS
             </h3>
             <div className="space-y-4 text-base leading-relaxed">

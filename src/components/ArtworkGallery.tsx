@@ -9,7 +9,7 @@ interface ArtworkGalleryProps {
 export const ArtworkGallery: React.FC<ArtworkGalleryProps> = ({ title, images }) => {
   return (
     <section className="w-full">
-      <h2 className="text-[rgba(255,253,245,1)] text-2xl font-bold text-center mb-20 max-md:mb-10">
+      <h2 className="font-cormorant text-[rgba(255,253,245,1)] text-2xl font-bold text-center mb-20 max-md:mb-10">
         {title}
       </h2>
       <Carousel
