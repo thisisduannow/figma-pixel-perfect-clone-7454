@@ -1,4 +1,5 @@
 import React from 'react';
+import emailIcon from '@/assets/email-icon.svg';
 
 export const ContactFooter: React.FC = () => {
   return (
@@ -24,6 +25,11 @@ export const ContactFooter: React.FC = () => {
           </a>
         </div>
         <div className="flex w-full items-center gap-2.5 mt-3">
+          <img
+            src={emailIcon}
+            alt="Email icon"
+            className="aspect-[1.15] object-contain w-[30px] self-stretch shrink-0 my-auto"
+          />
           <a 
             href="mailto:thisisduannow@gmail.com"
             className="self-stretch my-auto hover:opacity-80 transition-opacity"
