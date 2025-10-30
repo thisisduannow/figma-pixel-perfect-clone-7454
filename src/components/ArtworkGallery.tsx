@@ -11,7 +11,7 @@ export const ArtworkGallery: React.FC<ArtworkGalleryProps> = ({ title, images })
       <h2 className="text-[rgba(255,253,245,1)] text-2xl font-bold text-center mb-20 max-md:mb-10">
         {title}
       </h2>
-      <div className="flex w-full gap-6 justify-between flex-wrap max-md:max-w-full">
+      <div className="flex w-full gap-6 overflow-x-auto pb-4">
         {images.map((src, index) => (
           <img
             key={index}
