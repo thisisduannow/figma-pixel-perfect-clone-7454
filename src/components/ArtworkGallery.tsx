@@ -1,4 +1,5 @@
 import React from 'react';
+import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
 
 interface ArtworkGalleryProps {
   title: string;
@@ -11,16 +12,25 @@ export const ArtworkGallery: React.FC<ArtworkGalleryProps> = ({ title, images })
       <h2 className="text-[rgba(255,253,245,1)] text-2xl font-bold text-center mb-20 max-md:mb-10">
         {title}
       </h2>
-      <div className="flex w-full gap-6 overflow-x-auto pb-4">
-        {images.map((src, index) => (
-          <img
-            key={index}
-            src={src}
-            alt={`${title} artwork ${index + 1}`}
-            className="aspect-[0.71] object-contain w-[300px] min-w-60 shrink-0"
-          />
-        ))}
-      </div>
+      <Carousel
+        opts={{
+          align: "start",
+          dragFree: true,
+        }}
+        className="w-full"
+      >
+        <CarouselContent className="-ml-6">
+          {images.map((src, index) => (
+            <CarouselItem key={index} className="pl-6 basis-auto">
+              <img
+                src={src}
+                alt={`${title} artwork ${index + 1}`}
+                className="aspect-[0.71] object-contain w-[300px] min-w-60"
+              />
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+      </Carousel>
     </section>
   );
 };
