@@ -1,4 +1,5 @@
 import React from 'react';
+import detailsImage from '@/assets/details-section.jpg';
 
 export const DetailsSection: React.FC = () => {
   return (
@@ -6,7 +7,7 @@ export const DetailsSection: React.FC = () => {
       <div className="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         <div className="flex justify-center">
           <img
-            src="https://api.builder.io/api/v1/image/assets/48d21b7a3f224dd1b9d44631af980980/248a0678c2bc811d11a1e5f6f43590c995298e31?placeholderIfAbsent=true"
+            src={detailsImage}
             alt="Artwork detail"
             className="w-full max-w-[600px] object-contain shadow-lg"
           />
