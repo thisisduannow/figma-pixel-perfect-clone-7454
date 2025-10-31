@@ -14,8 +14,8 @@ export const PricingSection: React.FC = () => {
   ];
 
   return (
-    <section className="flex max-w-full w-[1920px] flex-col items-center text-[rgba(255,253,245,1)] mt-20 pb-[25px] px-20 max-md:mt-10 max-md:px-5">
-      <div className="flex min-h-[625px] w-[1188px] max-w-full flex-col overflow-hidden items-stretch justify-center px-[344px] py-[147px] max-md:px-5 max-md:py-[100px]">
+    <section className="flex max-w-full w-[1920px] flex-col items-center text-[rgba(255,253,245,1)] mt-20 pb-[25px] px-5 md:px-20 max-md:mt-10">
+      <div className="flex min-h-[625px] w-full max-w-[1188px] flex-col overflow-hidden items-stretch justify-center px-5 py-[100px] md:px-20 md:py-32 lg:px-[344px] lg:py-[147px]">
         <div className="w-full max-md:max-w-full">
           <h2 className="font-cormorant text-[80px] font-bold max-md:text-[40px]">
             PRIX
