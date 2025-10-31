@@ -50,7 +50,7 @@ const Index = () => {
           
           <div className="mt-20 max-md:mt-10">
             <ArtworkGallery 
-              title="mon meilleur ami" 
+              title="Mon Meilleur Ami" 
               images={monMeilleurAmiImages} 
             />
           </div>
