@@ -17,9 +17,11 @@ export const ContactFooter: React.FC = () => {
             className="aspect-[1] object-contain w-[30px] self-stretch shrink-0 my-auto"
           />
           <a 
-            href="#" 
+            href="https://www.instagram.com/abaldalien/" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="self-stretch my-auto hover:opacity-80 transition-opacity"
-            aria-label="Visit abaldalien social media profile"
+            aria-label="Visit abaldalien Instagram profile"
           >
             abaldalien
           </a>
