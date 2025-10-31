@@ -1,4 +1,5 @@
 import React from 'react';
+import emailIcon from '@/assets/email-icon.svg';
 
 export const ContactFooter: React.FC = () => {
   return (
@@ -10,24 +11,30 @@ export const ContactFooter: React.FC = () => {
       />
       <div className="relative flex w-[348px] max-w-full flex-col items-stretch">
         <div className="flex items-center gap-2.5">
+          <img
+            src="https://api.builder.io/api/v1/image/assets/48d21b7a3f224dd1b9d44631af980980/2e4b33c8cbe2ff8ed6220606d291d0c397a6d841?placeholderIfAbsent=true"
+            alt="Social media icon"
+            className="aspect-[1] object-contain w-[30px] self-stretch shrink-0 my-auto"
+          />
           <a 
-            href="https://www.instagram.com/abaldalien/" 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="self-stretch my-auto hover:opacity-80 transition-opacity flex items-center gap-2.5"
-            aria-label="Visit abaldalien Instagram profile"
+            href="#" 
+            className="self-stretch my-auto hover:opacity-80 transition-opacity"
+            aria-label="Visit abaldalien social media profile"
           >
-            <i className="fab fa-instagram w-[30px] text-[30px]"></i>
-            <span>abaldalien</span>
+            abaldalien
           </a>
         </div>
         <div className="flex w-full items-center gap-2.5 mt-3">
+          <img
+            src={emailIcon}
+            alt="Email icon"
+            className="aspect-[1.15] object-contain w-[30px] self-stretch shrink-0 my-auto"
+          />
           <a 
             href="mailto:thisisduannow@gmail.com"
-            className="self-stretch my-auto hover:opacity-80 transition-opacity flex items-center gap-2.5"
+            className="self-stretch my-auto hover:opacity-80 transition-opacity"
           >
-            <i className="fas fa-envelope w-[30px] text-[30px]"></i>
-            <span>thisisduannow@gmail.com</span>
+            thisisduannow@gmail.com
           </a>
         </div>
       </div>
