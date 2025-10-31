@@ -23,12 +23,12 @@ export const PricingSection: React.FC = () => {
           <div className="w-full font-normal mt-10 max-md:max-w-full">
             {priceItems.map((item, index) => (
               <div key={item.size}>
-                <div className="flex w-full max-w-[500px] items-end gap-5 flex-wrap justify-between py-2.5 max-md:max-w-full">
-                  <div className="flex flex-col">
+                <div className="flex w-full max-w-[500px] items-end gap-5 justify-between py-2.5 max-md:max-w-full">
+                  <div className="flex items-end gap-2.5">
                     <div className="text-[40px] leading-none">
                       {item.size}
                     </div>
-                    <div className="text-base">
+                    <div className="text-base pb-1">
                       {item.dimensions}
                     </div>
                   </div>
