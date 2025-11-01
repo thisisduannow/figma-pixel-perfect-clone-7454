@@ -2,7 +2,7 @@ import React from 'react';
 
 export const ArtistIntro: React.FC = () => {
   return (
-    <section className="w-[763px] max-w-full text-[rgba(255,253,245,1)] font-medium mt-20 px-5 max-md:mt-10">
+    <section className="w-[763px] max-w-full text-[rgba(255,253,245,1)] font-jakarta font-medium mt-20 px-5 max-md:mt-10">
       <article className="max-md:max-w-full">
         <h1 className="font-cormorant text-2xl leading-none max-md:max-w-full">
           Salut, c'est Duan
