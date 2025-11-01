@@ -20,7 +20,7 @@ export const PricingSection: React.FC = () => {
           PRIX
         </h2>
         
-        <div className="max-w-[500px]">
+        <div className="max-w-[500px] mx-auto">
           {priceItems.map((item, index) => (
             <React.Fragment key={item.size}>
               <div className="flex items-end justify-between gap-5 py-2.5 md:py-4 lg:py-6 text-[rgba(255,253,245,1)]">
