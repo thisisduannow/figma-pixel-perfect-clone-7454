@@ -16,7 +16,7 @@ export const PricingSection: React.FC = () => {
   return (
     <section className="w-full max-w-[1920px] mx-auto px-5 md:px-20 py-20 md:py-24">
       <div className="max-w-[1188px] mx-auto">
-        <h2 className="font-cormorant text-[80px] md:text-[80px] font-bold text-[rgba(255,253,245,1)] mb-10">
+        <h2 className="font-cormorant text-[80px] md:text-[80px] font-bold text-[rgba(255,253,245,1)] mb-10 text-center">
           PRIX
         </h2>
         
