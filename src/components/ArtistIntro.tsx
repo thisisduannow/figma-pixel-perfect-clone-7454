@@ -10,12 +10,16 @@ export const ArtistIntro: React.FC = () => {
         <div className="text-lg leading-[34px] mt-7 max-md:max-w-full">
           Je suis illustratrice basée à Paris.
           <br />
+          <br />
           Mon travail s'inspire de la vie quotidienne et des communautés
           marginalisées. J'aime utiliser des couleurs vives pour exprimer
-          les émotions et les histoires qui traversent mes images. J'ai
-          collaboré avec des institutions telles que Tate et le London
+          les émotions et les histoires qui traversent mes images. 
+          <br />
+          <br />
+          J'ai collaboré avec des institutions telles que Tate et le London
           College of Fashion, et j'ai participé à plusieurs expositions
           collectives à Paris, Londres et Shanghai.
+          <br />
           <br />
           J'espère que mes prints apporteront un peu de joie chez vous.
         </div>
