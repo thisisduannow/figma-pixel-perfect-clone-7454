@@ -1,5 +1,5 @@
 import React from 'react';
-import detailsSectionImage from '@/assets/details-section-full.jpg';
+import detailsSectionImage from '@/assets/details-artwork.jpg';
 
 export const DetailsSection: React.FC = () => {
   return (
