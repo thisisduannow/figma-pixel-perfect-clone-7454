@@ -10,7 +10,6 @@ export const ArtistIntro: React.FC = () => {
         <div className="text-lg leading-[34px] mt-7 max-md:max-w-full">
           Je suis illustratrice basée à Paris.
           <br />
-          <br />
           Mon travail s'inspire de la vie quotidienne et des communautés
           marginalisées. J'aime utiliser des couleurs vives pour exprimer
           les émotions et les histoires qui traversent mes images. J'ai
